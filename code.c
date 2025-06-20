@@ -8,7 +8,7 @@ void write(FILE *fp)
 {
 	if(fp!=NULL)
 	{
-		printf("Enter data to write\n");
+		printf("Enter data to encrypt\n");
 		char str[100];
 		scanf("\n%[^\n\t]", str);
 		fputs(str,fp);
